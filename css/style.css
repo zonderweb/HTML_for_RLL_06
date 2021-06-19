@@ -27,6 +27,18 @@ h1,h2,h3 {
     outline: 2px solid green;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.contact-item {
+    display: inline-block;
 }
 
 /* MAIN */
