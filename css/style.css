@@ -35,7 +35,6 @@ h1,h2,h3 {
 /* HEADER */
 .header {
     grid-area: header;
-    outline: 2px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,6 +107,27 @@ h1,h2,h3 {
 
 .about-text {
     line-height: 24px;
+}
+
+.about-skills {
+    margin-bottom: 20px;
+}
+
+.about-skills span {
+    display: inline-block;
+    border: 1px solid #a83186;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.download {
+    display: inline-block;
+    color: #e9e9ea;
+    text-decoration: none;
+    background: #a83186;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 /* FOOTER */
