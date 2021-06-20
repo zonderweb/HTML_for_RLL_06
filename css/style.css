@@ -3,6 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;    
+    font-weight: 500;
     color: #e9e9ea;
     background: #191c27;
 }
@@ -73,6 +75,37 @@ h1,h2,h3 {
 /* MAIN */
 .main {
     grid-area: main;
+    padding: 0 20px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.about-img {
+    margin-right: 20px;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-me {
+    margin-left: 20px;
+}
+
+.about-title {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.about-text {
+    line-height: 24px;
 }
 
 /* FOOTER */
