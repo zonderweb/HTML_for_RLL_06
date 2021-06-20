@@ -198,6 +198,7 @@ h1,h2,h3 {
 .social-item {
     display: inline-block;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .social-item > .material-icons {
